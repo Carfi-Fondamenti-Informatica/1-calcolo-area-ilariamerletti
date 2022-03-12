@@ -12,7 +12,7 @@ float a= 5, b= 3, c= 4;
   cout << "inserire altezza triangolo";
   cin >> b;
   cout << "area del triangolo = ";
-  cout << (triangolo)<< endl;
+  cout<< (triangolo)<< endl;
   cout<< "inserire base del rettangolo";
   cin >> a;
   cout << "inserire altezza del rettangolo";
