@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
+  float a;
+  float b;
+  float c;
 float triangolo= (a*b)/2;
 float rettangolo= (a*b);
 float quadrato= (a*a);
