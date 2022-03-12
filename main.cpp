@@ -1,17 +1,16 @@
 #include <iostream>
-using namespace std;
 int main(){
-  float a;
-  float b;
-  float c;
+float a;
+float b;
+float c;
 float triangolo= (a*b)/2;
 float rettangolo= (a*b);
 float quadrato= (a*a);
 float trapezio= (a+b)*c/2;
-  cin >>a>>b>>c;
-  cout<<((a*b)/2)<< endl;
-  cout<<((a*b))<< endl;
-  cout<<((a*a))<<endl;
-  cout<<(((a+b)*c)/2)<< endl;
+ std::cin>>a>>b>>c;
+ std::cout<<((a*b)/2)<<std::endl;
+ std::cout<<((a*b))<<std::endl;
+ std::cout<<((a*a))<<std::endl;
+ std:: cout<<(((a+b)*c)/2)<<std::endl;
   return 0;
 }
